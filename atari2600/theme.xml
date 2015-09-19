@@ -10,7 +10,7 @@
 <view name="system, basic, detailed">
 	
 	<image name="logo">
-		<path>./../../nbba theme/atari2600/logo.svg</path>
+		<path>./logo.svg</path>
 	</image>
 	
 	<helpsystem name="help">
@@ -23,11 +23,11 @@
 <view name="system">
 	
 	<image name="background" extra="true">
-		<path>./../../nbba theme/atari2600/bg.jpg</path>
+		<path>./bg.jpg</path>
 	</image>
 	
 	<image name="gc" extra="true">
-		<path>./../../nbba theme/atari2600/gc.png</path>
+		<path>./gc.png</path>
 	</image>
 	
 	<text name="year" extra="true">
@@ -47,8 +47,8 @@
 		<color>d57daf</color>
 	</text>
 		<rating name="md_rating">
-		<filledPath>./../../nbba theme/atari2600/star_filled.svg</filledPath>
-		<unfilledPath>./../../nbba theme/atari2600/star_unfilled.svg</unfilledPath>
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
 	</rating>
 	
 	<datetime name="md_releasedate, md_lastplayed">
