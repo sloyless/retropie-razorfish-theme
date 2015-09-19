@@ -4,7 +4,7 @@
 <view name="system, basic, detailed">
 
 	<helpsystem name="help">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.03</fontSize>
 		<pos>0.01 0.96</pos>
 	</helpsystem>
@@ -26,7 +26,7 @@
 	</image>
 	
 	<text name="year" extra="true">
-		<fontPath>./../nbba theme/main/fontbold.ttf</fontPath>
+		<fontPath>./main/fontbold.ttf</fontPath>
 		<fontSize>0.03</fontSize>
 		<alignment>right</alignment>
 		<size>0.995 0.05</size>
@@ -34,7 +34,7 @@
 	</text>
 	
 	<image name="footer" extra="true">
-		<path>./../nbba theme/main/bg.jpg</path>
+		<path>./main/bg.jpg</path>
 		<color>f3f3f3dd</color>
 		<pos>0 1</pos>
 		<origin>0 1</origin>
@@ -52,21 +52,21 @@
 	</image>
 	
 	<image name="background">
-		<path>./../nbba theme/main/bg.jpg</path>
+		<path>./main/bg.jpg</path>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
 		<size>1 1</size>
 	</image>
 	
 	<image name="filter" extra="true">
-		<path>./../nbba theme/main/filter.png</path>
+		<path>./main/filter.png</path>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
 		<size>1 1</size>
 	</image>
 	
 	<image name="footer" extra="true">
-		<path>./../nbba theme/main/bg.jpg</path>
+		<path>./main/bg.jpg</path>
 		<color>f3f3f3</color>
 		<pos>0 1</pos>
 		<origin>0 1</origin>
@@ -74,7 +74,7 @@
 	</image>
 	
 	<image name="logo-h1" extra="true">
-		<path>./../nbba theme/main/bg.jpg</path>
+		<path>./main/bg.jpg</path>
 		<color>f3f3f3</color>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
@@ -82,14 +82,14 @@
 	</image>
 	
 	<image name="logo-h2" extra="true">
-		<path>./../nbba theme/main/hl.svg</path>
+		<path>./main/hl.svg</path>
 		<pos>0 0</pos>
 		<origin>0 0</origin>
 		<maxSize>1 0.1</maxSize>
 	</image>
 	
 	<image name="logo-h3" extra="true">
-		<path>./../nbba theme/main/hr.svg</path>
+		<path>./main/hr.svg</path>
 		<pos>1 0</pos>
 		<origin>1 0</origin>
 		<maxSize>1 0.1</maxSize>
@@ -102,52 +102,52 @@
 	</image>
 	
 	<textlist name="gamelist">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.03</fontSize>
 		<horizontalMargin>0.01</horizontalMargin>
-		<scrollSound>./../nbba theme/main/sound.wav</scrollSound>
+		<scrollSound>./main/sound.wav</scrollSound>
 	</textlist>
 	
 	<text name="md_lbl_rating, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_publisher, md_playcount, md_description">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.01</fontSize>
 		<pos>-50 -50</pos>
 	</text>
 	
 	<rating name="md_rating">
-		<filledPath>./../nbba theme/main/star_filled.svg</filledPath>
-		<unfilledPath>./../nbba theme/main/star_unfilled.svg</unfilledPath>
+		<filledPath>./main/star_filled.svg</filledPath>
+		<unfilledPath>./main/star_unfilled.svg</unfilledPath>
 		<size>0.01 0.01</size>
 		<pos>-50 -50</pos>
 	</rating>
 	
 	<datetime name="md_lastplayed">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.01</fontSize>
 		<pos>-50 -50</pos>
 	</datetime>
 	
 	<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
-		<fontPath>./../nbba theme/main/fontbold.ttf</fontPath>
+		<fontPath>./main/fontbold.ttf</fontPath>
 		<fontSize>0.025</fontSize>
 		<size>0.111 0.015</size>
 		<alignment>right</alignment>
 	</text>
 	
 	<text name="md_developer">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.025</fontSize>
 		<size>0.187 0.015</size>
 	</text>
 	
 	<text name="md_genre, md_players">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.025</fontSize>
 		<size>0.187 0.015</size>
 	</text>
 	
 	<datetime name="md_releasedate">
-		<fontPath>./../nbba theme/main/font.ttf</fontPath>
+		<fontPath>./main/font.ttf</fontPath>
 		<fontSize>0.025</fontSize>
 		<size>0.2 0.015</size>
 	</datetime>
@@ -173,7 +173,7 @@
 		<pos>0.25 0.488</pos>
 		<origin>0.5 0.5</origin>
 		<size>0.49 0.75</size>
-		<path>./../nbba theme/main/bg.jpg</path>
+		<path>./main/bg.jpg</path>
 		<color>ff00ff</color>
 	</image>
 	-->
@@ -186,7 +186,7 @@
 	
 	
 	<image name="npi" extra="true">
-		<path>./../nbba theme/main/npi.png</path>
+		<path>./main/npi.png</path>
 		<pos>0.25 0.488</pos>
 		<origin>0.5 0.5</origin>
 		<maxSize>0.25 0.25</maxSize>

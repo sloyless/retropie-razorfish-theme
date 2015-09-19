@@ -10,7 +10,7 @@
 <view name="system, basic, detailed">
 	
 	<image name="logo">
-		<path>./../../nbba theme/atarilynx/logo.svg</path>
+		<path>./logo.svg</path>
 	</image>
 	
 	<helpsystem name="help">
@@ -23,11 +23,11 @@
 <view name="system">
 	
 	<image name="background" extra="true">
-		<path>./../../nbba theme/atarilynx/bg.jpg</path>
+		<path>./bg.jpg</path>
 	</image>
 	
 	<image name="gc" extra="true">
-		<path>./../../nbba theme/atarilynx/gc.png</path>
+		<path>./gc.png</path>
 	</image>
 	
 	<text name="year" extra="true">
@@ -47,8 +47,8 @@
 		<color>ffe9b3</color>
 	</text>
 		<rating name="md_rating">
-		<filledPath>./../../nbba theme/atarilynx/star_filled.svg</filledPath>
-		<unfilledPath>./../../nbba theme/atarilynx/star_unfilled.svg</unfilledPath>
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
 	</rating>
 	
 	<datetime name="md_releasedate, md_lastplayed">
