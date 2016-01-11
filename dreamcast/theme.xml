@@ -60,10 +60,10 @@
 	</datetime>
 	
 	<textlist name="gamelist">
-		<selectorColor>f7c7a300</selectorColor>
-		<selectedColor>f7c7a3</selectedColor>
-		<primaryColor>f7c7a370</primaryColor>
-		<secondaryColor>f7c7a370</secondaryColor>
+		<selectorColor>f7c7a3</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>f7c7a3</primaryColor>
+		<secondaryColor>f7c7a3</secondaryColor>
 	</textlist>
 	
 </view>

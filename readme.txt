@@ -1,6 +1,12 @@
 nbba theme
 
 Changes:
+Version 1.2
+- Added theme for 3DO Interactive Multiplayer, Atari Jaguar, Famicom Disk System, Kodi, Magnavox Odyssey 2, Nintendo DS, Nintendo Virtual Boy, Sega Saturn, Sega SG-1000, SNK Neo Geo Pocket
+- Added partial theme for Commodore Amiga, Sinclair ZX Spectrum
+- Changed background for Atari 7800 ProSystem, Sega CD
+- Changed logo for Atari 2600, Atari 5200 SuperSystem, Atari 7800 ProSystem, Sony PlayStation
+- Changed gamelists style to have a light color selector bar with black text. All other text is a light color
 Version 1.1
 - Added theme for Atari 5200, Atari 7800, Mattel Intellivision, Sega CD
 - Split up the zip files to make the main zip just the theme
@@ -21,12 +27,11 @@ Version 0.1 Beta
 
 ---------------------------------------
 
-I have built the theme using EmulationStation for Windows and have tested with a Raspberry Pi 2 B with a 320 MB memory split at 1920x1080 resolution. I have yet to test this theme with older Raspberry Pi models. I have a Raspberry Pi B+ that I will test with in the future.
+This theme was inspired by Florian Hurtaut's theme which was released for EmulationStation 1.x. I have built the theme using EmulationStation for Windows and have tested with a Raspberry Pi 2 B with a 320 MB memory split at 1920x1080 resolution. I have yet to test this theme with older Raspberry Pi models. I have a Raspberry Pi B+ that I will test with in the future.
 
-This theme is still incomplete. There are changes that I have planned to make.
+This theme is mostly complete. There are changes that I have planned to make.
 - Adding additional systems that are supported by the Raspberry Pi.
-- Adding one or two additional layout choices.
-- Adding options to the RetroPie menu that allow you to swap between emulation configuration profiles.
+- Adding one additional layout choice.
 
 For any question and updates you can reply to the topic below. I am also willing to add additional systems and system logo localization upon request.
 http://blog.petrockblock.com/forums/topic/nothing-but-box-art-wip/
@@ -35,34 +40,46 @@ I fully plan on releasing all the materials I used to make this theme but now I 
 
 ---------------------------------------
 
-There are 26 systems themed if you count the RetroPie settings. The systems themed are
+There are 38 systems themed if you count the RetroPie settings. The systems themed are
 
 RetroPie
 Sega Dreamcast
 Nintendo 64
 Sony PlayStation
+Sega Saturn
 Sega Genesis 32X
+Atari Jaguar
+3DO Interactive Multiplayer
 Sega CD
 Super Nintendo Entertainment System
 NEC TurboGrafx-16
 Sega Genesis
 Sega Master System
-Atari 7800
+Atari 7800 ProSystem
+Famicom Disk System
 Nintendo Entertainment System
-Atari 5200
+Sega SG-1000
+Atari 5200 SuperSystem
 GCE Vectrex
 Mattel Intellivision
+Magnavox Odyssey 2
 Atari 2600
+Nintendo DS
 Nintendo Game Boy Advance
 Nintendo Game Boy Color
+SNK Neo Geo Pocket
+Nintendo Virtual Boy
 Sega Game Gear
 Atari Lynx
 Nintendo Game Boy
+Commodore Amiga
 Commodore 64
+Sinclair ZX Spectrum
 Ports
 SNK Neo Geo System
 Final Burn Alpha
 Multiple Arcade Machine Emulator (MAME)
+Kodi | Open Source Home Theatre Software
 
 ---------------------------------------
 
@@ -117,7 +134,7 @@ I have provided an alternate version of the themes that do not include the game 
 
 EmulationStation es_systems.cfg
 
-I have provided a copy of my 'es_systems.cfg'. I have listed out the game systems newest to oldest first. Next listed is portables newest to oldest. Last is arcade systems. If you have any roms placed in a system I have not yet themed then they will appear at the end of the list.
+I have provided a copy of my 'es_systems.cfg'. I have listed out the game systems newest to oldest first. Next listed is portables newest to oldest. Last is arcade systems. I cannot guarentee it will work 100% as I have not used every emulator on the RetroPie.
 
 ---------------------------------------
 
