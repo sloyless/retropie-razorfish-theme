@@ -2,10 +2,10 @@
 <formatVersion>3</formatVersion>
 <include>./../theme.xml</include>
 
-<!-- Commodore 64 - August 1982 -->
-<!-- Normal: 009eda -->
-<!-- Light : 81e3ff -->
-<!-- Dark  : 005470 -->
+<!-- Arcade -->
+<!-- Normal: 4696c8 -->
+<!-- Light : 9ec8e2 -->
+<!-- Dark  : 204c68 -->
 
 <view name="system, basic, detailed">
 	
@@ -14,8 +14,8 @@
 	</image>
 	
 	<helpsystem name="help">
-		<textColor>005470</textColor>
-		<iconColor>005470</iconColor>
+		<textColor>204c68</textColor>
+		<iconColor>204c68</iconColor>
 	</helpsystem>
 	
 </view>
@@ -31,8 +31,8 @@
 	</image>
 	
 	<text name="year" extra="true">
-		<color>81e3ff</color>
-		<text>August 1982</text>
+		<color>9ec8e2</color>
+		<text></text>
 	</text>
 	
 </view>
@@ -40,26 +40,27 @@
 <view name="basic, detailed">
 	
 	<image name="background">
-		<color>009eda</color>
+		<color>4696c8</color>
 	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
-		<color>81e3ff</color>
+		<color>9ec8e2</color>
 	</text>
-		<rating name="md_rating">
+	
+	<rating name="md_rating">
 		<filledPath>./star_filled.svg</filledPath>
 		<unfilledPath>./star_unfilled.svg</unfilledPath>
 	</rating>
 	
 	<datetime name="md_releasedate, md_lastplayed">
-		<color>81e3ff</color>
+		<color>9ec8e2</color>
 	</datetime>
 	
 	<textlist name="gamelist">
-		<selectorColor>81e3ff</selectorColor>
+		<selectorColor>9ec8e2</selectorColor>
 		<selectedColor>000000</selectedColor>
-		<primaryColor>81e3ff</primaryColor>
-		<secondaryColor>81e3ff</secondaryColor>
+		<primaryColor>9ec8e2</primaryColor>
+		<secondaryColor>9ec8e2</secondaryColor>
 	</textlist>
 	
 </view>
@@ -71,7 +72,7 @@
 <view name="detailed">
 	
 	<image name="npi" extra="true">
-		<color>81e3ffcc</color>
+		<color>9ec8e2cc</color>
 	</image>
 	
 </view>
