@@ -10,7 +10,7 @@
 <view name="system, basic, detailed">
 	
 	<image name="logo">
-		<path>./logo.svg</path>
+		<path>./logo.png</path>
 	</image>
 	
 	<helpsystem name="help">
@@ -30,17 +30,12 @@
 		<path>./gc.png</path>
 	</image>
 	
-	<text name="year" extra="true">
-		<color>9ec8e2</color>
-		<text></text>
-	</text>
-	
 </view>
 
 <view name="basic, detailed">
 	
 	<image name="background">
-		<color>4696c8</color>
+		<path>./detail-bg.jpg</path>
 	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">

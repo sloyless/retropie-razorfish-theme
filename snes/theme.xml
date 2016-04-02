@@ -30,23 +30,19 @@
 		<path>./gc.png</path>
 	</image>
 	
-	<text name="year" extra="true">
-		<color>938dc1</color>
-		<text>4th gen, August 13th 1991</text>
-	</text>
-	
 </view>
 
 <view name="basic, detailed">
 	
 	<image name="background">
-		<color>5f56a2</color>
+		<path>./detail-bg.jpg</path>
 	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
 		<color>938dc1</color>
 	</text>
-		<rating name="md_rating">
+	
+	<rating name="md_rating">
 		<filledPath>./star_filled.svg</filledPath>
 		<unfilledPath>./star_unfilled.svg</unfilledPath>
 	</rating>

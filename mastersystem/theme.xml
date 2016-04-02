@@ -30,11 +30,6 @@
 		<path>./gc.png</path>
 	</image>
 	
-	<text name="year" extra="true">
-		<color>d55555</color>
-		<text>3rd gen, June 20th 1986</text>
-	</text>
-	
 </view>
 
 <view name="basic, detailed">
@@ -46,7 +41,8 @@
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
 		<color>d55555</color>
 	</text>
-		<rating name="md_rating">
+	
+	<rating name="md_rating">
 		<filledPath>./star_filled.svg</filledPath>
 		<unfilledPath>./star_unfilled.svg</unfilledPath>
 	</rating>
